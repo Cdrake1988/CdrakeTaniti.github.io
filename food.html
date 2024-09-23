@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food in Taniti</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #343a40;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        nav.navbar {
+            background-color: #333;
+            padding: 15px;
+        }
+
+        nav.navbar ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        nav.navbar ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .navbar ul li a:hover {
+            color: #c5f6fa;
+        }
+
+        .page-header {
+            background-color: #0b7285;
+            color: #fff;
+            text-align: center;
+            padding: 2rem 0;
+        }
+
+        .page-header h1 {
+            font-size: 2.5rem;
+        }
+
+        .food-section {
+            padding: 4rem 0;
+        }
+
+        .food-section h2 {
+            font-size: 2rem;
+            margin-bottom: 2rem;
+            text-align: center;
+            color: #0b7285;
+        }
+
+        .food-item {
+            display: flex;
+            margin-bottom: 3rem;
+            background-color: #f8f9fa;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .food-image {
+            width: 40%;
+            object-fit: cover;
+        }
+
+        .food-content {
+            width: 60%;
+            padding: 2rem;
+        }
+
+        .food-item h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: #0b7285;
+        }
+
+        .food-item p {
+            margin-bottom: 1rem;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background-color: #0b7285;
+            color: #fff;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background-color: #22b8cf;
+        }
+
+        footer {
+            background-color: #343a40;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="travel.html">Travel</a></li>
+            <li><a href="Atrractions.html">Attractions</a></li>
+            <li><a href="lodging.html">Book Lodging</a></li>
+            <li><a href="food.html">Food</a></li>
+        </ul>
+    </nav>
+
+    <header class="page-header">
+        <h1>Culinary Delights of Taniti</h1>
+    </header>
+
+    <div class="container">
+        <section class="food-section">
+            <h2>Restaurants</h2>
+            
+            <div class="food-item">
+                <img src="loc.jpeg" alt="Local Fish and Rice Restaurant" class="food-image">
+                <div class="food-content">
+                    <h3>Local Fish and Rice</h3>
+                    <p>Experience the authentic flavors of Taniti at one of our five restaurants specializing in local fish and rice dishes. Enjoy fresh catches of the day prepared with traditional Tanitian recipes.</p>
+                    <a href="#" class="cta-button">Find Restaurants</a>
+                </div>
+            </div>
+
+            <div class="food-item">
+                <img src="am.jpeg" alt="American-style Restaurant" class="food-image">
+                <div class="food-content">
+                    <h3>American-Style Cuisine</h3>
+                    <p>For those craving familiar flavors, our three American-style restaurants offer classic dishes with a Tanitian twist. Perfect for families and those looking for comfort food.</p>
+                    <a href="#" class="cta-button">Explore Options</a>
+                </div>
+            </div>
+
+            <div class="food-item">
+                <img src="pan.jpeg" alt="Pan-Asian Restaurant" class="food-image">
+                <div class="food-content">
+                    <h3>Pan-Asian Delights</h3>
+                    <p>Discover a fusion of flavors at our two Pan-Asian restaurants. Enjoy a diverse menu featuring dishes from various Asian cuisines, prepared with locally sourced ingredients.</p>
+                    <a href="#" class="cta-button">View Menus</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="food-section">
+            <h2>Grocery and Convenience Stores</h2>
+            
+            <div class="food-item">
+                <img src="super.jpeg" alt="Taniti Supermarket" class="food-image">
+                <div class="food-content">
+                    <h3>Supermarkets</h3>
+                    <p>Taniti boasts two well-stocked supermarkets offering a wide range of local and imported products. Perfect for self-catering or picking up snacks and essentials.</p>
+                </div>
+            </div>
+
+            <div class="food-item">
+                <img src="small.jpeg" alt="Local Grocery Store" class="food-image">
+                <div class="food-content">
+                    <h3>Local Grocery Stores</h3>
+                    <p>Experience shopping like a local at our two smaller grocery stores. Find fresh produce, local specialties, and everyday items in a charming, community-oriented setting.</p>
+                </div>
+            </div>
+
+          
+
+       
+
+        <section class="food-section">
+            <h2>Dining Information</h2>
+            <div class="food-item">
+                <div class="food-content">
+                    <h3>Important Details</h3>
+                    <ul>
+                        <li>Many restaurants are located in Taniti City and the Merriton Landing area.</li>
+                        <li>Reservations are recommended for dinner, especially during peak tourist season.</li>
+                        <li>Alcohol is not served or sold between midnight and 9:00 a.m.</li>
+                        <li>The drinking age on Taniti is 18 years old.</li>
+                        <li>Many restaurants and stores may be closed during national holidays.</li>
+                        <li>U.S. dollars are widely accepted, and many businesses also accept euros and yen.</li>
+                        <li>Most restaurants and larger stores accept major credit cards.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Tanitian Island. All rights reserved.</p>
+    </footer>
+</body>
+</html>

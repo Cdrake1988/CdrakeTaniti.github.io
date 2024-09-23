@@ -1,0 +1,192 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Lodging in Taniti</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #343a40;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        nav.navbar {
+            background-color: #333;
+            padding: 15px;
+        }
+
+        nav.navbar ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        nav.navbar ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .navbar ul li a:hover {
+            color: #c5f6fa;
+        }
+
+        .page-header {
+            background-color: #0b7285;
+            color: #fff;
+            text-align: center;
+            padding: 2rem 0;
+        }
+
+        .page-header h1 {
+            font-size: 2.5rem;
+        }
+
+        .lodging-section {
+            padding: 4rem 0;
+        }
+
+        .lodging-section h2 {
+            font-size: 2rem;
+            margin-bottom: 2rem;
+            text-align: center;
+            color: #0b7285;
+        }
+
+        .lodging-item {
+            display: flex;
+            margin-bottom: 3rem;
+            background-color: #f8f9fa;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .lodging-image {
+            width: 40%;
+            object-fit: cover;
+        }
+
+        .lodging-content {
+            width: 60%;
+            padding: 2rem;
+        }
+
+        .lodging-item h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: #0b7285;
+        }
+
+        .lodging-item p {
+            margin-bottom: 1rem;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background-color: #0b7285;
+            color: #fff;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background-color: #22b8cf;
+        }
+
+        footer {
+            background-color: #343a40;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="travel.html">Travel</a></li>
+            <li><a href="Attractions.html">Attractions</a></li>
+            <li><a href="lodging.html">Book Lodging</a></li>
+            <li><a href="food.html">Food</a></li>
+        </ul>
+    </nav>
+
+    <header class="page-header">
+        <h1>Book Your Stay in Taniti</h1>
+    </header>
+
+    <div class="container">
+        <section class="lodging-section">
+            <h2>Lodging Options</h2>
+            
+            <div class="lodging-item">
+                <img src="lux.jpeg" alt="Taniti Four-Star Resort" class="lodging-image">
+                <div class="lodging-content">
+                    <h3>Luxury Resort</h3>
+                    <p>Experience the ultimate in comfort and relaxation at our four-star resort. Enjoy stunning ocean views, world-class amenities, and impeccable service.</p>
+                    <a href="#" class="cta-button">Book Now</a>
+                </div>
+            </div>
+
+            <div class="lodging-item">
+                <img src="fam.jpeg" alt="Family-Owned Hotel" class="lodging-image">
+                <div class="lodging-content">
+                    <h3>Charming Family-Owned Hotels</h3>
+                    <p>Immerse yourself in Tanitian hospitality at one of our many family-owned hotels. Each offers a unique experience with personalized service and local charm.</p>
+                    <a href="#" class="cta-button">Explore Options</a>
+                </div>
+            </div>
+
+            <div class="lodging-item">
+                <img src="bed.jpeg" alt="Bed and Breakfast" class="lodging-image">
+                <div class="lodging-content">
+                    <h3>Cozy Bed and Breakfasts</h3>
+                    <p>For a more intimate stay, choose from our growing selection of bed and breakfasts. Enjoy home-cooked meals and a chance to connect with local hosts.</p>
+                    <a href="#" class="cta-button">Find B&Bs</a>
+                </div>
+            </div>
+
+       
+
+        <section class="lodging-section">
+            <h2>Lodging Information</h2>
+            <div class="lodging-item">
+                <div class="lodging-content">
+                    <h3>Important Details</h3>
+                    <ul>
+                        <li>All types of lodging are strictly regulated and regularly inspected by the Tanitian government.</li>
+                        <li>Most accommodations are located in or near Taniti City and the Merriton Landing area.</li>
+                        <li>Many lodging options offer easy access to beaches, rainforest excursions, and local attractions.</li>
+                        <li>Booking in advance is recommended, especially during peak tourist seasons and national holidays.</li>
+                        <li>Some accommodations may offer package deals that include local tours or activities.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Tanitian Island. All rights reserved.</p>
+    </footer>
+</body>
+</html>

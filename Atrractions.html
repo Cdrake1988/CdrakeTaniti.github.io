@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attractions in Taniti</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #343a40;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        nav.navbar {
+    background-color: #333;
+    padding: 15px;
+}
+
+nav.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+        .navbar ul li a:hover {
+            color: #c5f6fa;
+        }
+
+        /* Page Header */
+        .page-header {
+            background-color: #0b7285;
+            color: #fff;
+            text-align: center;
+            padding: 2rem 0;
+        }
+
+        .page-header h1 {
+            font-size: 2.5rem;
+        }
+
+        /* Attraction Sections */
+        .attraction-section {
+            padding: 4rem 0;
+        }
+
+        .attraction-section h2 {
+            font-size: 2rem;
+            margin-bottom: 2rem;
+            text-align: center;
+            color: #0b7285;
+        }
+
+        .attraction-item {
+            display: flex;
+            margin-bottom: 3rem;
+            background-color: #f8f9fa;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .attraction-image {
+            width: 40%;
+            object-fit: cover;
+        }
+
+        .attraction-content {
+            width: 60%;
+            padding: 2rem;
+        }
+
+        .attraction-item h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: #0b7285;
+        }
+
+        .attraction-item p {
+            margin-bottom: 1rem;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background-color: #0b7285;
+            color: #fff;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background-color: #22b8cf;
+        }
+
+        /* About Section */
+        .about-section {
+            background-color: #e9ecef;
+            padding: 4rem 0;
+        }
+
+        .about-section h2 {
+            font-size: 2rem;
+            margin-bottom: 2rem;
+            text-align: center;
+            color: #0b7285;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #343a40;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="travel.html">Travel</a></li>
+            <li><a href="Atrractions.html">Attractions</a></li>
+            <li><a href="lodging.html">Book Lodging</a></li>
+            <li><a href="food.html">Food</a></li>
+        </ul>
+    </nav>
+
+    <!-- Page Title -->
+    <header class="page-header">
+        <h1>Attractions in Taniti</h1>
+    </header>
+
+    <!-- Natural Attractions -->
+    <div class="container">
+        <section class="attraction-section">
+            <h2>Natural Attractions</h2>
+            
+            <div class="attraction-item">
+                <img src="b.jpeg" alt="Sandy beach in Yellow Leaf Bay" class="attraction-image">
+                <div class="attraction-content">
+                    <h3>Local Beaches</h3>
+                    <p>Taniti is comprised of sandy and rocky beaches. Most visitors find themselves relaxing at one of the many sandy beaches that make up Yellow Leaf Bay. These beaches are the perfect getaway from the high-stress modern world. Find yourself relaxing in a hammock, swimming with the sealife, or building a sandcastle.</p>
+                </div>
+            </div>
+
+            <div class="attraction-item">
+                <img src="r.jpeg" alt="Lush tropical rainforest" class="attraction-image">
+                <div class="attraction-content">
+                    <h3>Rainforest</h3>
+                    <p>The lush tropical rainforest of Taniti is the perfect destination for a day hike. If the hiking becomes too much, there are zip-lines to take through the rainforest and back to the beach.</p>
+                </div>
+            </div>
+
+            <div class="attraction-item">
+                <img src="t.jpg" alt="Active volcano on Taniti" class="attraction-image">
+                <div class="attraction-content">
+                    <h3>The Volcano</h3>
+                    <p>A small active volcano is centrally located in the mountainous region of the island. Although it is an active volcano, there is a hiking path that will take you right up to the volcano. Please observe the safety rails put in place.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Activities -->
+        <section class="attraction-section">
+            <h2>Activities</h2>
+
+            <div class="attraction-item">
+                <img src="m.jpeg" alt="Taniti History Museum" class="attraction-image">
+                <div class="attraction-content">
+                    <h3>History Museum</h3>
+                    <p>The museum is a destination for history buffs that are looking to learn about the cultural changes that have occurred since the late 1900s. Taniti is known for its old pirate settlement that transformed into a fishing and agricultural rich environment.</p>
+                    <a href="#" class="cta-button">Make Reservation</a>
+                </div>
+            </div>
+
+            <div class="attraction-item">
+                <img src="f.jpeg" alt="Fishing tour in Taniti" class="attraction-image">
+                <div class="attraction-content">
+                    <h3>Fishing Tours</h3>
+                    <p>Led by natives of Taniti, experience tropical fishing from those who know the best fishing spots and have the knowledge for a successful expedition. As part of the fishing tour, any fish you catch will be prepared for you by one of our residential chefs.</p>
+                    <a href="#" class="cta-button">Make Reservation</a>
+                </div>
+            </div>
+
+            <div class="attraction-item">
+                <img src="s.jpeg"Snorkeling in Taniti's coral reefs" class="attraction-image">
+                <div class="attraction-content">
+                    <h3>Snorkeling</h3>
+                    <p>Check out the coral reefs that surround the island from the unique perspective of snorkeling. Back in the late 1900s, snorks, as they were called, would go on 30 minute under sea adventures with the occasional interaction with an octopus.</p>
+                    <a href="#" class="cta-button">Make Reservation</a>
+                </div>
+            </div>
+
+            <div class="attraction-item">
+                <img src="z.jpeg" alt="Zip-lining through Taniti's rainforest" class="attraction-image">
+                <div class="attraction-content">
+                    <h3>Zip-lining</h3>
+                    <p>Coupled with the hiking opportunities in our rainforest, you can make your way through portions of the rainforest via a zip-line system. For an exhilarating experience, you can travel our 50 mph zip-line that takes you back to the beach front.</p>
+                    <a href="#" class="cta-button">Make Reservation</a>
+                </div>
+            </div>
+
+           
+
+        
+
+        <!-- Tourist Needs -->
+       
+
+            </div>
+
+            <div class="attraction-item">
+                <img src="d.jpeg" alt="Taniti information center" class="attraction-image">
+                <div class="attraction-content">
+                    <h3>Frequently Requested Information</h3>
+                    <ul>
+                        <li>Power outlets are 120 volts (the same as in the United States).</li>
+                        <li>Alcohol is not allowed to be served or sold between the hours of midnight and 9:00 a.m.</li>
+                        <li>The drinking age on Taniti is 18 and the drinking age is not strictly enforced.</li>
+                        <li>Many younger Tanitians speak fluent English. Very little English is spoken in rural areas, especially by the older residents.</li>
+                        <li>There is one hospital and several clinics. The hospital has many multilingual employees.</li>
+                        <li>Violent crime is very rare on Taniti, but as tourism increases, there are more reports of pickpocketing and other petty crimes.</li>
+                        <li>Taniti enjoys a large number of national holidays, and many tourist attractions and restaurants will be closed on holidays, so visitors should plan accordingly.</li>
+                        <li>Taniti uses the U.S. dollar as its currency, but many businesses will also accept euros and yen. Several banks facilitate currency exchange, and many businesses accept major credit cards.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Tanitian Island. All rights reserved.</p>
+    </footer>
+</body>
+</html>
